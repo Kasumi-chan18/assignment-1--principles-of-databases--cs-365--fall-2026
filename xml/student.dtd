@@ -4,7 +4,7 @@
 <!-- The 'student' element contains personal and academic information.
      The '+' means there must be at least one student element in the XML. -->
 <!ELEMENT student (first, middle, last, preferred, email, phone, year, gpa, major, minor, status, advisor, admit, grad)>
-<!-- The 'student' element must have a unique 'id' attribute -->
+<!-- The 'student' element must have a unique required 'id' attribute -->
 <!ATTLIST student id CDATA #REQUIRED>
 
 <!-- Individual elements for student names -->
