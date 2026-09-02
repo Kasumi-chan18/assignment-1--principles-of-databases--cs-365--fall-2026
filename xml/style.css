@@ -1,55 +1,62 @@
+/* Styles the text value of the email tag */
+email {
+  color: #0066cc;
+}
+
+email::before{
+  color: #000000;
+}
+
+/* Styles the text value of the students tags */
 students {
   display: block;
   font-family: Arial, sans-serif;
-  margin: 1em;
+  max-width: 750px;
+  margin: 2em auto;
 }
 
 student {
   display: block;
   border: 1px solid #444;
-  margin: 0.5em 0;
-  padding: 0.5em;
+  margin-bottom: 1.5em;
+  padding: 1em;
   background-color: #f9f9f9;
   border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 student::before {
   content: "Student ID: " attr(id);
   font-weight: bold;
   display: block;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.4em;
+  padding-bottom: 0.4em;
   color: #003366;
+  border-bottom: 2px solid #003366;
+  font-size: 1.1em;
 }
 
-first,
-middle,
-last,
-preferred,
-email,
-phone,
-year,
-gpa,
-major,
-minor,
-status,
-advisor,
-admit,
-grad {
-  display: block;
-  margin-left: 1em;
+
+first, middle, last, preferred, email, phone, year,
+gpa, major, minor, status, advisor, admit, grad {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #e2e8f0;
 }
 
-first::before { content: "First name: "; font-weight: bold; }
-middle::before { content: "Middle name: "; font-weight: bold; }
-last::before { content: "Last name: "; font-weight: bold; }
-preferred::before { content: "Preferred name: "; font-weight: bold; }
-email::before { content: "Email: "; font-weight: bold; }
-phone::before { content: "Phone: "; font-weight: bold; }
-year::before { content: "Year: "; font-weight: bold; }
-gpa::before { content: "GPA: "; font-weight: bold; }
-major::before { content: "Major: "; font-weight: bold; }
-minor::before { content: "Minor: "; font-weight: bold; }
-status::before { content: "Enrollment status: "; font-weight: bold; }
-advisor::before { content: "Advisor: "; font-weight: bold; }
-admit::before { content: "Date of initial enrollment: "; font-weight: bold; }
-grad::before { content: "Graduation date: "; font-weight: bold; }
+first::before{ content: "First name: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+middle::before{ content: "Middle name: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+last::before{ content: "Last name: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+preferred::before{ content: "Preferred name: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+email::before{ content: "Email: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+phone::before{ content: "Phone: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+year::before{ content: "Year: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+gpa::before{ content: "GPA: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+major::before{ content: "Major: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+minor::before{ content: "Minor: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+status::before{ content: "Enrollment status: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+advisor::before{ content: "Advisor: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+admit::before{ content: "Date of initial enrollment: "; font-weight: bold; width: 220px; flex-shrink: 0;}
+grad::before{ content: "Graduation date: "; font-weight: bold; width: 220px; flex-shrink: 0;}
