@@ -5,7 +5,7 @@
       "first": "Gordon",
       "middle": "Matthew",
       "last": "Sumner",
-      "preferred": "“Sting”",
+      "preferred": "Sting",
       "email": "sting@thepolice.com",
       "phone": "212.123.4567",
       "year": "first year",
@@ -39,7 +39,7 @@
       "first": "Saul",
       "middle": "",
       "last": "Hudson",
-      "preferred": "“Slash”",
+      "preferred": "Slash",
       "email": "slash@gnr.com",
       "phone": "213.456.8392",
       "year": "fourth year",
@@ -48,8 +48,8 @@
       "minor": "Criminal Justice",
       "status": "part-time",
       "advisor": "Axl Rose",
-      "dob": "08-25-1983",
-      "admit": "05-01-1987"
+      "admit": "08-25-1983",
+      "grad": "05-01-1987"
     },
     {
       "id": "2983928",
